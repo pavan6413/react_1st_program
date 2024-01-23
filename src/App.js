@@ -2,7 +2,8 @@ import './App.css';
 
 function App() {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <>
+<nav className="navbar navbar-expand-lg bg-info">
   <div className="container-fluid">
     <a className="navbar-brand" href="/">ELECTRONIC</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="/navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,8 +26,15 @@ function App() {
         <button className="btn btn-outline-success" type="submit">Search</button>
       </form>
     </div>
-  </div>
+    </div>
 </nav>
+ 
+    <div className='mid'>
+    <h1>We Are Electronic <br/>Engineer</h1>
+    <p>Electronics is the study of electricity  (the flow of electrons) <br/> and how to  use that to build things like computers. <br/> It uses circuits that are made with parts called components and <br/> connecting wires to do useful things</p>
+    <button>Explore Us</button>
+    </div>
+    </>
   );
 }
 
